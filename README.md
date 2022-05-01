@@ -45,10 +45,10 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) f
 
 Recommended extensions for development in VSCode
 
-### Vetur
+### Volar
 
-Description: Vue tooling for VS Code
-VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=octref.vetur>
+Description: Language support for Vue 3
+VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar>
 
 ### Vue discovery
 
@@ -59,3 +59,8 @@ VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=Maantj
 
 Description: Allows peek and goto definition for Vue single-file components.
 VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek>
+
+### Vue 3 Snippets
+
+Description: A Vue.js 3 And Vue.js 2 Code Snippets Extension
+VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets>
