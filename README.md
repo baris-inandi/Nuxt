@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Tailwind Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
@@ -40,3 +40,22 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+## VSCode
+
+Recommended extensions for development in VSCode
+
+### Vetur
+
+Description: Vue tooling for VS Code
+VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=octref.vetur>
+
+### Vue discovery
+
+Description: This extension discovers Vue components in your workspace and provides IntelliSense for them.
+VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=Maantje.vue-discovery>
+
+### Vue Peek
+
+Description: Allows peek and goto definition for Vue single-file components.
+VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek>
