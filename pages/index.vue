@@ -1,3 +1,3 @@
 <template>
-    <Welcome />
+  <Welcome />
 </template>
