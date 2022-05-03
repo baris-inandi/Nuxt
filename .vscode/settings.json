@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Nuxt", "nuxtjs", "Vetur"]
+  "cSpell.words": ["Nuxt", "nuxtjs", "Vetur"],
+  "volar.takeOverMode.enabled": true
 }
