@@ -1,4 +1,5 @@
 import { defineStore } from "pinia";
+
 export const useExampleStore = defineStore("example", () => {
   const exampleBoolean = ref(false);
 

@@ -1,23 +1,21 @@
 {
   "name": "nuxt-template",
   "private": true,
-  "author": {
-    "name": "baris-inandi"
-  },
-  "license": "AGPL-3.0-only",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "start": "bun .output/server/index.mjs",
     "preview": "nuxt preview",
+    "start": "bun .output/server/index.mjs",
+    "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
-    "lint": "eslint && nuxi typecheck",
-    "prettier": "prettier --write ."
+    "lint": "eslint --ext .js,.vue,.ts,.tsx --ignore-path .gitignore . && nuxi typecheck",
+    "prettier": "prettier --write .",
+    "fix": "eslint --fix --ext .js,.vue,.ts,.tsx --ignore-path .gitignore . && prettier --write ."
   },
-  "engines": {
-    "node": "20.x"
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -27,21 +25,20 @@
     "@nuxtjs/tailwindcss": "^6.11.3",
     "@vueuse/core": "^10.7.2",
     "@vueuse/nuxt": "^10.7.2",
-    "ajv": "^7",
+    "ajv": "^8.12.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
-    "nuxt": "^3.10.1",
+    "nuxt": "^3.10.3",
     "nuxt-security": "^1.1.1",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "sass": "^1.70.0",
-    "sass-loader": "^14.1.0",
-    "vue": "^3.4.15",
-    "vue-router": "^4.2.5",
-    "vue-tsc": "^1.8.27"
+    "prettier-plugin-sort-json": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "typescript": "5.3.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue-tsc": "^1"
   },
-  "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
-    "pinia": "^2.1.7"
+  "engines": {
+    "node": "20.x"
   }
 }

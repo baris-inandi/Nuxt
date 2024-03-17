@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const nuxtApp = useNuxtApp();
+</script>
+
 <template>
   <NuxtLayout>
     <Html lang="en" :data-route-path="$route?.path">
@@ -14,10 +18,7 @@
         <Meta property="og:site_name" content="/favicon.png" />
         <Meta name="twitter:site" content="/favicon.png" />
         <Meta name="url" :content="`${nuxtApp?.$app_origin}${$route?.path}`" />
-        <Meta
-          property="og:url"
-          :content="`${nuxtApp?.$app_origin}${$route?.path}`"
-        />
+        <Meta property="og:url" :content="`${nuxtApp?.$app_origin}${$route?.path}`" />
         <Link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <Link rel="apple-touch-icon" type="image/png" href="/favicon.png" />
         <Link rel="apple-touch-startup-image" href="/favicon.png" />
@@ -26,7 +27,3 @@
     <NuxtPage />
   </NuxtLayout>
 </template>
-
-<script lang="ts" setup>
-const nuxtApp = useNuxtApp();
-</script>
